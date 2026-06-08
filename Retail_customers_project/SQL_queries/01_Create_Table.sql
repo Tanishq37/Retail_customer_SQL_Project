@@ -1,0 +1,20 @@
+CREATE TABLE retail_customer_insights (
+    Customer_ID INT,
+    Age INT,
+    Gender VARCHAR(10),
+    Item_Purchased VARCHAR(50),
+    Category VARCHAR(30),
+    Purchase_Amount_USD DECIMAL(10,2),
+    Location VARCHAR(50),
+    Size VARCHAR(10),
+    Color VARCHAR(30),
+    Season VARCHAR(20),
+    Review_Rating DECIMAL(2,1),
+    Subscription_Status VARCHAR(5),
+    Shipping_Type VARCHAR(30),
+    Discount_Applied VARCHAR(5),
+    Promo_Code_Used VARCHAR(5),
+    Previous_Purchases INT,
+    Payment_Method VARCHAR(30),
+    Frequency_of_Purchases VARCHAR(30)
+);
